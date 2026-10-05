@@ -18,16 +18,16 @@ This project compares three approaches on the same dataset and the same train/va
 
 ## Table of Contents
 
-* [Abstract](#-abstract)
-* [Results at a Glance](#-results-at-a-glance)
-* [Dataset](#-dataset)
-* [Repository Structure](#-repository-structure)
-* [Getting Started](#-getting-started)
-* [Approach 1: Classical Machine Learning](#-approach-1-classical-machine-learning)
-* [Approach 2: TinyVGG (CNN from scratch)](#-approach-2-tinyvgg-cnn-from-scratch)
-* [Approach 3: Transfer Learning (EfficientNet-B0)](#-approach-3-transfer-learning-efficientnet-b0)
-* [Links](#-links)
-* [License & Acknowledgements](#-license--acknowledgements)
+* [Abstract](#abstract)
+* [Results at a Glance](#results-at-a-glance)
+* [Dataset](#dataset)
+* [Repository Structure](#repository-structure)
+* [Getting Started](#getting-started)
+* [Approach 1: Classical Machine Learning](#approach-1-classical-machine-learning)
+* [Approach 2: TinyVGG (CNN from scratch)](#approach-2-tinyvgg-cnn-from-scratch)
+* [Approach 3: Transfer Learning (EfficientNet-B0)](#approach-3-transfer-learning-efficientnet-b0)
+* [Links](#links)
+* [License & Acknowledgements](#license--acknowledgements)
 
 ---
 

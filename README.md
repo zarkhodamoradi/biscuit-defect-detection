@@ -11,7 +11,7 @@ This project compares three approaches on the same dataset and the same train/va
 <p align="center">
   <img src="assets/dataset_samples.png" alt="Sample OK and NOK biscuits from the dataset" width="700">
   <br>
-  <em>Random samples from the dataset: top row = OK, bottom row = NOK.</em>
+  <em>Random samples from the dataset.</em>
 </p>
 
 ---
@@ -39,9 +39,12 @@ This project compares three approaches on the same dataset and the same train/va
 Automatic quality control is one of the important applications of image processing and AI in industrial production lines. This project studies the problem of detecting **good (OK)** and **defective (NOK)** biscuits from their images, and compares several machine-learning and deep-learning methods for this binary classification task.
 
 After preparing and pre-processing the biscuit images, three approaches were evaluated.
--First, image features (**HOG, LBP, and HSV/colour histograms**) were extracted and, after standardisation, fed to five classical classifiers: **Logistic Regression, kNN, SVM (RBF), Random Forest, and Gradient Boosting**.
--Second, a simple convolutional neural network with a **TinyVGG** architecture was trained from scratch.
--Third, **Transfer Learning** was applied using a pre-trained **EfficientNet-B0**.
+
+**First**, image features (**HOG, LBP, and HSV/colour histograms**) were extracted and, after standardisation, fed to five classical classifiers: **Logistic Regression, kNN, SVM (RBF), Random Forest, and Gradient Boosting**.
+
+**Second**, a simple convolutional neural network with a **TinyVGG** architecture was trained from scratch.
+
+**Third**, **Transfer Learning** was applied using a pre-trained **EfficientNet-B0**.
 
 Models were compared using Accuracy, Precision, Recall and F1-score.
 

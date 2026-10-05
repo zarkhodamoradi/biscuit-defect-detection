@@ -26,9 +26,6 @@ This project compares three approaches on the same dataset and the same train/va
 * [Approach 1: Classical Machine Learning](#-approach-1-classical-machine-learning)
 * [Approach 2: TinyVGG (CNN from scratch)](#-approach-2-tinyvgg-cnn-from-scratch)
 * [Approach 3: Transfer Learning (EfficientNet-B0)](#-approach-3-transfer-learning-efficientnet-b0)
-* [Load and Evaluate a Trained Model](#-load-and-evaluate-a-trained-model)
-* [Notes on Evaluation](#-notes-on-evaluation)
-* [Future Work](#-future-work)
 * [Links](#-links)
 * [License & Acknowledgements](#-license--acknowledgements)
 

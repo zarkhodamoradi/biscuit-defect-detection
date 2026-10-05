@@ -38,7 +38,10 @@ This project compares three approaches on the same dataset and the same train/va
 
 Automatic quality control is one of the important applications of image processing and AI in industrial production lines. This project studies the problem of detecting **good (OK)** and **defective (NOK)** biscuits from their images, and compares several machine-learning and deep-learning methods for this binary classification task.
 
-After preparing and pre-processing the biscuit images, three approaches were evaluated. First, image features (**HOG, LBP, and HSV/colour histograms**) were extracted and, after standardisation, fed to five classical classifiers: **Logistic Regression, kNN, SVM (RBF), Random Forest, and Gradient Boosting**. Second, a simple convolutional neural network with a **TinyVGG** architecture was trained from scratch. Third, **Transfer Learning** was applied using a pre-trained **EfficientNet-B0**.
+After preparing and pre-processing the biscuit images, three approaches were evaluated.
+-First, image features (**HOG, LBP, and HSV/colour histograms**) were extracted and, after standardisation, fed to five classical classifiers: **Logistic Regression, kNN, SVM (RBF), Random Forest, and Gradient Boosting**.
+-Second, a simple convolutional neural network with a **TinyVGG** architecture was trained from scratch.
+-Third, **Transfer Learning** was applied using a pre-trained **EfficientNet-B0**.
 
 Models were compared using Accuracy, Precision, Recall and F1-score.
 
@@ -138,7 +141,7 @@ biscuit-defect-detection/
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 1. Clone the repository
 
@@ -211,13 +214,13 @@ python scripts/prepare_dataset.py
 
 ### Validation Results
 
-| Model               |    Accuracy | Precision (NOK) | Recall (NOK) | Confusion matrix `[[TN FP] [FN TP]]` |
-| ------------------- | ----------: | --------------: | -----------: | ------------------------------------ |
-| Logistic Regression |     91.76 % |            0.89 |         0.95 | `[[247, 33], [13, 265]]`             |
-| kNN                 |     82.08 % |            1.00 |         0.64 | `[[280, 0], [100, 178]]`             |
-| **SVM (RBF)**       | **97.67 %** |            1.00 |         0.95 | `[[280, 0], [13, 265]]`              |
-| **Random Forest**   | **97.85 %** |            0.96 |         1.00 | `[[269, 11], [1, 277]]`              |
-| Gradient Boosting   |     95.52 % |            0.92 |         1.00 | `[[255, 25], [0, 278]]`              |
+| Model               |    Accuracy | Precision (NOK) | Recall (NOK) | 
+| ------------------- | ----------: | --------------: | -----------: | 
+| Logistic Regression |     91.76 % |            0.89 |         0.95 | 
+| kNN                 |     82.08 % |            1.00 |         0.64 | 
+| **SVM (RBF)**       | **97.67 %** |            1.00 |         0.95 | 
+| **Random Forest**   | **97.85 %** |            0.96 |         1.00 | 
+| Gradient Boosting   |     95.52 % |            0.92 |         1.00 | 
 
 NOK is treated as the positive class. Random Forest misses only **1 defective biscuit**, which is particularly important in quality-control applications.
 

@@ -40,11 +40,13 @@ Automatic quality control is one of the important applications of image processi
 
 After preparing and pre-processing the biscuit images, three approaches were evaluated.
 
-**First**, image features (**HOG, LBP, and HSV/colour histograms**) were extracted and, after standardisation, fed to five classical classifiers: **Logistic Regression, kNN, SVM (RBF), Random Forest, and Gradient Boosting**.
+After preparing and pre-processing the biscuit images, three approaches were evaluated.
 
-**Second**, a simple convolutional neural network with a **TinyVGG** architecture was trained from scratch.
+First, image features (**HOG, LBP, and HSV/colour histograms**) were extracted and, after standardisation, fed to five classical classifiers: **Logistic Regression, kNN, SVM (RBF), Random Forest, and Gradient Boosting**.
 
-**Third**, **Transfer Learning** was applied using a pre-trained **EfficientNet-B0**.
+Second, a simple convolutional neural network with a **TinyVGG** architecture was trained from scratch.
+
+Third, **Transfer Learning** was applied using a pre-trained **EfficientNet-B0**.
 
 Models were compared using Accuracy, Precision, Recall and F1-score.
 

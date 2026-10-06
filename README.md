@@ -397,6 +397,6 @@ The final reported accuracy comes from the Kaggle run linked above.
 
 ## License & Acknowledgements
 
-- Code in this repository is released under the **MIT License** (add a `LICENSE` file).
+- Code in this repository is released under the **MIT License**.
 - The dataset belongs to its original authors; please follow the licence stated on its [Kaggle page](https://www.kaggle.com/datasets/imonbilk/industry-biscuit-cookie-dataset/data).
 - Pre-trained weights: EfficientNet-B0 (ImageNet-1K) from `torchvision`.
